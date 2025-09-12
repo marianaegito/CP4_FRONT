@@ -1,6 +1,7 @@
 // src/App.jsx
 import Header from "./components/Header";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           image="/assets/coracao.jpg"
         />
       </main>
+       <Footer />
     </div>
   );
 }
