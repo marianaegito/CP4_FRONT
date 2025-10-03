@@ -1,12 +1,12 @@
 // src/main.jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';  // Se você estiver usando a versão mais recente do React
-import './index.css';  // Aqui você importa o arquivo de estilos global
-import App from './App.jsx';  // Importando o componente principal
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));  // Criação da raiz
-root.render(
-  <React.StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
