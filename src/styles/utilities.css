@@ -1,0 +1,40 @@
+/* src/index.css ou src/styles/utilities.css */
+
+/* Importa todo o núcleo do Tailwind (base + utilities) */
+@import "tailwindcss";
+
+/* Define tokens de tema diretamente no CSS */
+@theme {
+  --color-primary: #2563eb;
+  --color-secondary: #f43f5e;
+  --font-display: "Poppins", sans-serif;
+}
+
+/* Estilos reutilizáveis com @apply */
+.btn {
+  @apply px-4 py-2 bg-[--color-primary] text-white rounded 
+  hover:bg-blue-600 transition font-semibold;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition;
+}
+
+.title {
+  @apply text-2xl font-bold text-gray-800 mb-2 font-display;
+}
+
+/* Exemplo opcional de nesting com & (funciona nativo no Tailwind v4) */
+.card {
+  & h3 {
+    @apply text-lg font-semibold mb-2;
+  }
+
+  & p {
+    @apply text-gray-600;
+  }
+
+  &:hover {
+    @apply shadow-xl;
+  }
+}

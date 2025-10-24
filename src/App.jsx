@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import Button from "./components/Button"; // Importa o novo componente Button
 
 import Doces from "./pages/Doces";
 import Frutas from "./pages/Frutas";
@@ -61,6 +62,12 @@ function App() {
                     image="/assets/coracao.jpg"
                     route="/coracao"
                   />
+                </div>
+
+                {/* Exemplo prático de reutilização de estilo com o Button */}
+                <div className="mt-12 flex justify-center gap-6">
+                  <Button>Salvar</Button>
+                  <Button className="bg-green-500 hover:bg-green-600">Confirmar</Button>
                 </div>
               </main>
             }

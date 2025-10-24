@@ -21,9 +21,19 @@ function Header() {
         <nav className="w-fit">
           <ul className="flex items-center w-fit list-none text-black gap-2.5">
             {/* Cada link com efeito hover/ativo semelhante ao print */}
+             <li>
+              <a
+                href="/"
+                className="w-fit uppercase text-sm tracking-wider opacity-90 hover:opacity-100 relative
+                           after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white
+                           hover:after:w-full after:transition-all"
+              >
+                Início
+              </a>
+            </li>
             <li>
               <a
-                href="#"
+                href="/doces"
                 className="w-fit uppercase text-sm tracking-wider opacity-90 hover:opacity-100 relative
                            after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white
                            hover:after:w-full after:transition-all"
@@ -31,6 +41,7 @@ function Header() {
                 Doces
               </a>
             </li>
+             
             <li>
               <a
                 href="#"
@@ -43,7 +54,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="/sobre"
                 className="w-fit uppercase text-sm tracking-wider opacity-90 hover:opacity-100 relative
                            after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white
                            hover:after:w-full after:transition-all"
