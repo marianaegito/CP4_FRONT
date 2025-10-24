@@ -31,7 +31,7 @@ export default function Maca() {
         {/* Card 2 */}
         <div className="card text-center">
           <img
-            src="/assets/maça-crumble.webp"
+            src="/assets/maçacrumble.webp"
             alt="Crumble de Maçã"
             className="rounded-lg mb-3 w-full h-48 object-cover"
           />

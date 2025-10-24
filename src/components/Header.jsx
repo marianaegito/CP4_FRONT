@@ -44,7 +44,7 @@ function Header() {
              
             <li>
               <a
-                href="#"
+                href="/salgados"
                 className="w-fit uppercase text-sm tracking-wider opacity-90 hover:opacity-100 relative
                            after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white
                            hover:after:w-full after:transition-all"
@@ -62,16 +62,7 @@ function Header() {
                 Sobre
               </a>
             </li>
-            <li>
-              <a
-                href="#"
-                className="w-fit uppercase text-sm tracking-wider opacity-90 hover:opacity-100 relative
-                           after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white
-                           hover:after:w-full after:transition-all"
-              >
-                Cadastro
-              </a>
-            </li>
+           
           </ul>
         </nav>
       {/* </div> */}

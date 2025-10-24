@@ -11,6 +11,7 @@ import Bolos from "./pages/Bolos";
 import Sobre from "./pages/Sobre";
 import Maca from "./pages/Maca";
 import Coracao from "./pages/Coracao";
+import Salgados from "./pages/Salgados";
 
 function App() {
   return (
@@ -64,11 +65,7 @@ function App() {
                   />
                 </div>
 
-                {/* Exemplo prático de reutilização de estilo com o Button */}
-                <div className="mt-12 flex justify-center gap-6">
-                  <Button>Salvar</Button>
-                  <Button className="bg-green-500 hover:bg-green-600">Confirmar</Button>
-                </div>
+               
               </main>
             }
           />
@@ -80,6 +77,8 @@ function App() {
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/maca" element={<Maca />} />
           <Route path="/coracao" element={<Coracao />} />
+          <Route path="/salgados" element={<Salgados/>} />
+          
         </Routes>
       </div>
 

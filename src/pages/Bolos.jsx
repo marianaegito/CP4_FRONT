@@ -19,7 +19,7 @@ export default function Bolos() {
           <img
             src="/assets/bolodechocolate.png"
             alt="Bolo de Chocolate"
-            className="rounded-lg mb-3 w-full h-48 object-cover"
+            className="rounded-lg mb-3 w-full h-68 object-cover"
           />
           <h3 className="title text-[--color-primary]">Bolo de Chocolate</h3>
           <p className="text-gray-600 mb-4">
@@ -33,7 +33,7 @@ export default function Bolos() {
           <img
             src="/assets/bolodebaunilha.png"
             alt="Bolo de Baunilha"
-            className="rounded-lg mb-3 w-full h-48 object-cover"
+            className="rounded-lg mb-3 w-full h-68 object-cover"
           />
           <h3 className="title text-[--color-primary]">Bolo de Baunilha</h3>
           <p className="text-gray-600 mb-4">
@@ -47,7 +47,7 @@ export default function Bolos() {
           <img
             src="/assets/bolodefrutas.png"
             alt="Bolo de Frutas"
-            className="rounded-lg mb-3 w-full h-48 object-cover"
+            className="rounded-lg mb-3 w-full h-68 object-cover"
           />
           <h3 className="title text-[--color-primary]">Bolo de Frutas</h3>
           <p className="text-gray-600 mb-4">
